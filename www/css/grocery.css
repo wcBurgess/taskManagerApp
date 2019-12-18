@@ -1,0 +1,156 @@
+body {
+	background: #eceff1;
+	color: #F45252;
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+h1 {
+  font: 72px 'Oswald', Arial, sans-serif;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.container {
+	margin: 5px;
+}
+@media (min-width: 600px) {
+  .container {
+    width: 75%;
+  }
+}
+@media (min-width: 900px) {
+  .container {
+    width: 65%;
+  }
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #F45252;
+  font-size: 24px;
+  height: 50px;
+  padding-bottom: 15px;
+}
+input:focus {
+  outline: 0;
+}
+@media (min-width: 900px) {
+  input {
+    font-size: 32px;
+  }
+}
+
+.input-buttons {
+  height: 50px;
+  border-bottom: 1px solid #F45252;
+  padding: 0;
+}
+.input-buttons i {
+  padding: 0 12px;
+  color:#F45252;
+  float: right;
+}
+.input-buttons .fa-plus {
+  border-right: 1px solid #F45252;
+}
+@media (min-width: 600px) {
+  .input-buttons .fa-trash-o:hover {
+    color: #38B7B2;
+	font-weight: bold;
+  }
+  .input-buttons .fa-plus:hover {
+    color: #38B7B2;
+	font-weight: bold;
+  }
+}
+
+.error {
+  color: #ff5252;
+  font-weight: bold;
+  display: none;
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: center;
+}
+.error .fa-times {
+  color: #38B7B2;
+  font-weight: bold;
+  padding: 5px 15px;
+  float: right;
+}
+.error .fa-times:hover {
+  color: #ff5252;
+  font-weight: bold;
+}
+.error p {
+  margin: 20px 0;
+}
+@media (min-width: 600px) {
+  .error p {
+    font-size: 20px;
+  }
+}
+
+.groceryItem-list {
+  padding: 0;
+  margin: 20px 0 50px;
+}
+.groceryItem-list {
+  background: #eceff1;
+  border-bottom: 1px dotted #38B7B2;
+  color: #ff5252;
+  font-weight: bold;
+  font-size: 20px;
+  list-style: none;
+  padding: 20px 130px 20px 15px;
+  position: relative;
+  white-space: normal;
+}
+ .groceryItem {
+  background: #eceff1;
+  border-bottom: 1px dotted #ff5252;
+  color: #ff5252;
+  font-weight: bold;
+  font-size: 20px;
+  list-style: none;
+  padding: 20px 130px 20px 15px;
+  position: relative;
+  white-space: normal;
+}
+span {
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+span a {
+  color: #ff5252;
+  font-weight: bold;
+}
+span i {
+  padding: 10px 15px;
+}
+span .fa-check {
+  border-right: 1px solid #38B7B2;
+}
+span .fa-check:hover {
+  color:#38B7B2;
+  font-weight: bold;
+}
+span .fa-trash-o:hover {
+  color: #38B7B2;
+  font-weight: bold;
+}
+
+.complete {
+  color: #38B7B2;
+  font-weight: bold;
+  text-decoration: line-through;
+}
+.complete .check {
+  color: #38B7B2;
+  font-weight: bold;
+}

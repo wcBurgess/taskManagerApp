@@ -1,0 +1,44 @@
+@charset "utf-8";
+body{
+	background-color: #EFEFEF;
+}
+.container {
+	margin: 5px;
+	padding-top: 2em;
+}
+h1 {
+	width: 100%;
+	text-align: center;
+	color: #38B7B2;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+input[id="fortoDoList"]  {
+	width: 100%;
+	margin-top: 0.6em;
+	margin-bottom: 0.6em;
+	font-size: 2em;
+	background-color: #F45252;
+	color: #FFFFFF;
+	border: thick double #FFFFFF;
+	
+}
+input[id="forgroceryList"] {
+	width: 100%;
+	margin-top: 0.6em;
+	margin-bottom: 0.6em;
+	font-size: 2em;
+	color: #FFFFFF;
+	background-color: #F45252;
+	border: thick double #FFFFFF;
+}
+input[id="forstickyNoteList"]  {
+	width: 100%;
+	margin-top: 0.6em;
+	margin-bottom: 0.6em;
+	font-size: 2em;
+	color: #FFFFFF;
+	background-color: #F45252;
+	border: thick double #FFFFFF;
+}

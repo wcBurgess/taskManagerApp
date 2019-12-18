@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width initial-scale=1" >
+<title>Grocery List Manager</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+<link rel="stylesheet" href="../../bootstrap/3/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+<script src="../../bootstrap/3/js/bootstrap.min.js"></script>
+<link href="http://fonts.googleapis.com/css?family=Lato:300|Oswald" rel="stylesheet" type="text/css">
+<link href="css/grocery.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<div class="container">
+	<div class="row">
+    	 <h1>Grocery List</h1>
+    <input type="text" class="col-xs-8 col-sm-8 pull-left">
+    			<div class="input-buttons col-xs-4 col-sm-3">
+   				  <a href="#" class="clear-text"><i class="fa fa-trash-o fa-2x"></i></a>
+      				<a href="#" class="add-groceryItem"><i class="fa fa-plus fa-2x"></i></a>
+    			</div>
+  		</div>
+  		<div class="row">
+    		<div class="error">
+      			<a href="#"><i class="fa fa-times"></i></a>
+      				<p>Add grocery items</p>
+   			</div> 
+    		
+    		<ul class="groceryItem-list col-xs-8"></ul>
+  		</div> 
+	</div>
+<script src="js/grocery.js"></script>
+</body>
+</html>

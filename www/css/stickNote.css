@@ -1,0 +1,154 @@
+
+body {
+	background-color: #FFFFFF;
+	font-size: 100%;
+}
+input#home {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #455a64;
+  font-size:2em;
+  color: #455a64;
+  height: auto;
+  padding-bottom: 15px;
+}
+input#home:hover {
+	text-transform: uppercase;  
+}
+.container {
+	margin: 5px;
+}
+.container h1 {
+	color: #455a64;
+	width: 100%;
+	display: block;
+	font-size: 3em;
+	text-align: center;
+}
+
+form {
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+form input#note_text {
+	display: block;
+	margin: 0;
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 2em;
+	appearance: none;
+	box-shadow: none;
+	border-radius: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: solid 3px #455a64;
+	transition: border 0s;
+}
+
+form input#note_text:focus {
+	border: none;
+	display: block;
+	margin: 10px auto;
+	width: 100%;
+	color: #455a64;
+	font-size: 2em;
+	background:  #ffffff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+}
+
+form input#add_button {
+	border: none;
+	display: block;
+	margin: 10px auto;
+	width: 100%;
+	color: #ffffff;
+	font-size: 2em;
+	background: #455a64;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+}
+
+form input#add_button:hover {
+	background-color:  #556F7B;
+	text-decoration: none;
+}
+
+form select#note_color {
+	height: 2em;
+	width: 100%;
+	margin-bottom: 2em;
+	font-size: 2em;
+	color: #556F7B;
+}
+
+form button {
+  background-color: #455a64;
+  border: none;
+  margin-bottom: 2em;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+button#yellow {}
+
+
+
+
+ul {
+  width: 900px;
+  margin: auto;
+}
+
+ul#stickies li {
+  display: block;
+  list-style: none;
+  z-index: 1;
+  float: left;
+  margin: 30px;
+  padding: 15px 15px 50px 15px;
+  width: 80px;
+  height: 70px;
+  border: 1px solid #bfbfbf;
+  background-color: rgba(255, 254, 162, 0.77);
+  color: black;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+  overflow: hidden;
+}
+
+ul#stickies li span.sticky {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 80%;
+}
+
+
+ul#stickies li:nth-child(even) {
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
+ul#stickies li:nth-child(odd) {
+  -webkit-transform: rotate(-1deg);
+  -moz-transform: rotate(-1deg);
+  -o-transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+}
+
+ul#stickies li:nth-child(3n) {
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  transform: rotate(1deg);
+}
+
+
